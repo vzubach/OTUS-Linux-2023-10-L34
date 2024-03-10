@@ -3,16 +3,16 @@
 **1. сравнение производительности туннелей в режимах tun/tap**
 
   - статистика iperf в режиме tap:
-  > - - - - - - - - - - - - - - - - - - - - - - - - -
-  >[ ID] Interval           Transfer     Bitrate         Retr
-  >[  5]   0.00-40.00  sec   224 MBytes  46.9 Mbits/sec   80             sender
-  >[  5]   0.00-40.44  sec   221 MBytes  45.9 Mbits/sec                  receiver
+   
+  >[ ID] Interval           Transfer     Bitrate         Retr<br>
+  >[  5]   0.00-40.00  sec   224 MBytes  46.9 Mbits/sec   80             sender<br>
+  >[  5]   0.00-40.44  sec   221 MBytes  45.9 Mbits/sec                  receiver<br>
 
   - статистика iperf в режиме tun:
-  > - - - - - - - - - - - - - - - - - - - - - - - - -
-  >[ ID] Interval           Transfer     Bitrate         Retr
-  >[  5]   0.00-40.00  sec   220 MBytes  46.2 Mbits/sec   82             sender
-  >[  5]   0.00-40.65  sec   218 MBytes  45.1 Mbits/sec                  receiver  
+  
+  >[ ID] Interval           Transfer     Bitrate         Retr<br>
+  >[  5]   0.00-40.00  sec   220 MBytes  46.2 Mbits/sec   82             sender<br>
+  >[  5]   0.00-40.65  sec   218 MBytes  45.1 Mbits/sec                  receiver  <br>
 
   **Вывод:** в режиме tun скорость немного меньше, т.к. туннель работает в режиме L3 и, вероятно, имеет бОльший оверхединг  
 
